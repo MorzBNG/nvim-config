@@ -9,7 +9,7 @@ vim.opt.smartindent = true
 vim.opt.wrap = true
 vim.opt.showbreak = "> "
 
-vim.opt.hlsearch = false
+vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 vim.opt.swapfile = true
