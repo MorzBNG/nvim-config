@@ -37,7 +37,7 @@ return {
                     --{ action = 'lua LazyVim.pick.config_files()()',              desc = " Config",          icon = " ", key = "c" },
                     { action = 'lua require("persistence").load()',              desc = " Restore Session", icon = " ", key = "s" },
                     --{ action = "LazyExtras",                                     desc = " Lazy Extras",     icon = " ", key = "x" },
-                    { action = "Lazy",                                           desc = " Lazy",            icon = "󰒲 ", key = "l" },
+                    { action = "Lazy",                                           desc = " Lazy",            icon = "󰒲 ", key = "L" },
                     { action = function() vim.api.nvim_input("<cmd>qa<cr>") end, desc = " Quit",            icon = " ", key = "q" },
                 },
                 footer = function()
